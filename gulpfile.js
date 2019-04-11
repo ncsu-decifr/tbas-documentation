@@ -16,7 +16,7 @@ gulp.task('markdown_docker', function() {
 
 gulp.task('move_images', function() {
     return gulp.src("images/tbas-documentation/*.*")
-        .pipe(gulp.dest('/var/www/html/tbas2_1/images/tbas-documentation'));
+        .pipe(gulp.dest('/var/www/html/tbas2_1/pages/images/tbas-documentation'));
 });
 
 gulp.task('default', ['markdown_docker', 'move_images']);
