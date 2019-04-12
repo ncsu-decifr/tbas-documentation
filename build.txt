@@ -1,0 +1,4 @@
+npm init
+npm install gulp@3.9.1 --save-dev
+npm install gulp-rename --save-dev
+npm install gulp-markdown --save-dev
