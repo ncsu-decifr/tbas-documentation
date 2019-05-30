@@ -9,8 +9,8 @@ Genetic distance cutoff ,Value used by custom algorithm to exclude divergent spe
 GTRCAT (Rate heterogeneity model),
 GTRGAMMA (Rate heterogeneity model),
 ITS,Internal transcribed spacer locus
-Labels: Display Names,Node-click context menu 
-Labels: Likelihood Weight,Node-click context menu 
+Labels: Display Names,"Node-click context menu, display leaf names in selected clade in large trees. Tree with greater than 2000 leaves do not display names for performance reasons."
+Labels: Likelihood Weight,"Node-click context menu, click on leaf of EPA placement will show all all leaves attached to the edge that gives 95% cumulative weight."
 Ladderize tree,Sort tree leaves from deepest to shallowest or reverse
 Locus (Loci),A location on a chromosome
 LSU,Large subunit locus
