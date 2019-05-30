@@ -20,7 +20,7 @@ gulp.task('move_images', function() {
 });
 gulp.task('move_csv', function() {
     return gulp.src("documentation.csv")
-        .pipe(gulp.dest('/var/www/html/tbas2_1/pages/'));
+        .pipe(gulp.dest('/var/www/html/tbas2_1/pages/data/tbas-documentation'));
 });
 
 gulp.task('default', ['markdown_docker', 'move_images', 'move_csv']);
