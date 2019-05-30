@@ -24,17 +24,17 @@ Rate heterogeneity model,
 RAxML,"Softare tool used to place alignment on a tree, plus some other utilities"
 Reference set,"A set of tree, alignments, and metadata of known species at a specific taxonomic level used for placement"
 UNITE,Database of fungal ITS for BLAST
-Taxa: Select(unselect),
-Taxa: Select All,
-Taxa: Unselect All,
-Metadata: View,
-Metadata: Download,
-Labels: Likelihood Weight,
-Labels: Display Names,
-Tree: Collapse(expand),
-Tree: Subtree(tree),
-Tree: Subtree(new window),
-Tree: Newick tree,
-Tree: Phylogeny (RaxML),
-Tree: Network (TCS),
-Tree: Pie Charts,
+Taxa: Select(unselect),"Node-click context menu, select or unselect all leafs in clade"
+Taxa: Select All,"Node-click context menu, select all leaves on tree"
+Taxa: Unselect All,"Node-click context menu, unselect all leaves on tree"
+Metadata: View,Node-click context menu 
+Metadata: Download,Node-click context menu 
+Labels: Likelihood Weight,Node-click context menu 
+Labels: Display Names,Node-click context menu 
+Tree: Collapse(expand),Node-click context menu 
+Tree: Subtree(tree),Node-click context menu 
+Tree: Subtree(new window),Node-click context menu 
+Tree: Newick tree,Node-click context menu 
+Tree: Phylogeny (RaxML),Node-click context menu 
+Tree: Network (TCS),Node-click context menu 
+Tree: Pie Charts,Node-click context menu 
