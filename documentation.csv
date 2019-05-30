@@ -9,9 +9,13 @@ Genetic distance cutoff ,Value used by custom algorithm to exclude divergent spe
 GTRCAT (Rate heterogeneity model),
 GTRGAMMA (Rate heterogeneity model),
 ITS,Internal transcribed spacer locus
+Labels: Display Names,Node-click context menu 
+Labels: Likelihood Weight,Node-click context menu 
 Ladderize tree,Sort tree leaves from deepest to shallowest or reverse
 Locus (Loci),A location on a chromosome
 LSU,Large subunit locus
+Metadata: Download,Node-click context menu 
+Metadata: View,Node-click context menu 
 multifurcating tree,Tree where each node can have multiple children
 NEWICK,A standard for representing  trees
 NEXUS,"A file format with multiple uses, can contain trees and alignments"
@@ -23,18 +27,14 @@ query sequences,Unaligned unknown sequence data
 Rate heterogeneity model,
 RAxML,"Softare tool used to place alignment on a tree, plus some other utilities"
 Reference set,"A set of tree, alignments, and metadata of known species at a specific taxonomic level used for placement"
-UNITE,Database of fungal ITS for BLAST
-Taxa: Select(unselect),"Node-click context menu, select or unselect all leafs in clade"
 Taxa: Select All,"Node-click context menu, select all leaves on tree"
+Taxa: Select(unselect),"Node-click context menu, select or unselect all leafs in clade"
 Taxa: Unselect All,"Node-click context menu, unselect all leaves on tree"
-Metadata: View,Node-click context menu 
-Metadata: Download,Node-click context menu 
-Labels: Likelihood Weight,Node-click context menu 
-Labels: Display Names,Node-click context menu 
-Tree: Collapse(expand),Node-click context menu 
-Tree: Subtree(tree),Node-click context menu 
-Tree: Subtree(new window),Node-click context menu 
+Tree: Collapse(expand),"Node-click context menu, collapse clade into a single node. Collapsed clade appears as a small circle. Click on this circle to restore clade."
+Tree: Network (TCS),Node-click context menu 
 Tree: Newick tree,Node-click context menu 
 Tree: Phylogeny (RaxML),Node-click context menu 
-Tree: Network (TCS),Node-click context menu 
 Tree: Pie Charts,Node-click context menu 
+Tree: Subtree(new window),Node-click context menu 
+Tree: Subtree(tree),Node-click context menu 
+UNITE,Database of fungal ITS for BLAST
