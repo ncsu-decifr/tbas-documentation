@@ -1,0 +1,21 @@
+Reference set,"A set of tree, alignments, and metadata of known species at a specific taxonomic level used for placement"
+Locus (Loci),A location on a chromosome
+query sequences,Unaligned unknown sequence data
+ITS,Internal transcribed spacer locus
+LSU,Large subunit locus
+FASTA,A file sequence format for unaligned data
+BLAST ,"Basic Local Alignment Search Tool, used to match unknown sequences to known sequences in database"
+UNITE,Database of fungal ITS for BLAST
+OTUs,A grouping of sequences into percent similarity by  the program QIIME
+Genetic distance cutoff ,Value used by custom algorithm to exclude divergent species from placement
+RAxML,"Softare tool used to place alignment on a tree, plus some other utilities"
+EPA with likelihood weights,RaxML method that places sequence on edges of existing tree
+Backbone constraint tree with bootstraps,RaxML method 
+De novo phylogenetic analysis,RaxML method 
+Rate heterogeneity model,
+GTRGAMMA (Rate heterogeneity model),
+GTRCAT (Rate heterogeneity model),
+outgroup,"Leaves of a tree placed in a distinct clade, used to root tree"
+Ladderize tree,Sort tree leaves from deepest to shallowest or revese
+bifurcating tree,Tree where each node has 2 children
+multifurcating tree,Tree where each node can have multiple children
