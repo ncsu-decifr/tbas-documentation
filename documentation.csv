@@ -1,8 +1,7 @@
-term,definition
-Backbone constraint tree with bootstraps,RaxML method 
+Backbone constraint tree with bootstraps,RaxML method
 bifurcating tree,Tree where each node has 2 children
 BLAST ,"Basic Local Alignment Search Tool, used to match unknown sequences to known sequences in database"
-De novo phylogenetic analysis,RaxML method 
+De novo phylogenetic analysis,RaxML method
 EPA with likelihood weights,RaxML method that places sequence on edges of existing tree
 FASTA,A file sequence format for unaligned data
 Genetic distance cutoff ,Value used by custom algorithm to exclude divergent species from placement
