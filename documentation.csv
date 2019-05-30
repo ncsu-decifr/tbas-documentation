@@ -1,6 +1,7 @@
 Backbone constraint tree with bootstraps,RaxML method
 bifurcating tree,Tree where each node has 2 children
 BLAST ,"Basic Local Alignment Search Tool, used to match unknown sequences to known sequences in database"
+cifr phyloXML,Custom XML format that is valid phyloXML with added tags for use in T-BAS
 De novo phylogenetic analysis,RaxML method
 EPA with likelihood weights,RaxML method that places sequence on edges of existing tree
 FASTA,A file sequence format for unaligned data
@@ -12,8 +13,12 @@ Ladderize tree,Sort tree leaves from deepest to shallowest or reverse
 Locus (Loci),A location on a chromosome
 LSU,Large subunit locus
 multifurcating tree,Tree where each node can have multiple children
+NEWICK,A standard for representing  trees
+NEXUS,"A file format with multiple uses, can contain trees and alignments"
 OTUs,A grouping of sequences into percent similarity by  the program QIIME
 outgroup,"Leaves of a tree placed in a distinct clade, used to root tree"
+PHYLIP,A file format for aligned sequence data
+phyloXML,XML language designed to describe phylogenetic trees (or networks) and associated data
 query sequences,Unaligned unknown sequence data
 Rate heterogeneity model,
 RAxML,"Softare tool used to place alignment on a tree, plus some other utilities"
