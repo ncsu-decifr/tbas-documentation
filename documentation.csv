@@ -6,8 +6,8 @@ De novo phylogenetic analysis,RaxML method
 EPA with likelihood weights,RaxML method that places sequence on edges of existing tree
 FASTA,A file sequence format for unaligned data
 Genetic distance cutoff ,Value used by custom algorithm to exclude divergent species from placement
-GTRCAT (Rate heterogeneity model),
-GTRGAMMA (Rate heterogeneity model),
+GTRCAT (Rate heterogeneity model), Faster model than GTRGAMMA that uses a different approximation to capture rate heterogeneity across sites
+GTRGAMMA (Rate heterogeneity model),General Time Reversible (GTR) model with Gamma distributed rates across sites
 ITS,Internal transcribed spacer locus
 Labels: Display Names,"Node-click context menu, display leaf names in selected clade in large trees. Tree with greater than 2000 leaves do not display names for performance reasons."
 Labels: Likelihood Weight,"Node-click context menu, click on leaf of EPA placement will show all all leaves attached to the edge that gives 95% cumulative weight."
@@ -24,7 +24,7 @@ outgroup,"Leaves of a tree placed in a distinct clade, used to root tree"
 PHYLIP,A file format for aligned sequence data
 phyloXML,XML language designed to describe phylogenetic trees (or networks) and associated data
 query sequences,Unaligned unknown sequence data
-Rate heterogeneity model,
+Rate heterogeneity model, A phylogenetic model that accounts for evolutionary rate heterogeneity
 RAxML,"Softare tool used to place alignment on a tree, plus some other utilities"
 Reference set,"A set of tree, alignments, and metadata of known species at a specific taxonomic level used for placement"
 Taxa: Select All,"Node-click context menu, select all leaves on tree"
