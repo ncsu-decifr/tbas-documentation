@@ -32,9 +32,9 @@ Taxa: Select(unselect),"Node-click context menu, select or unselect all leafs in
 Taxa: Unselect All,"Node-click context menu, unselect all leaves on tree"
 Tree: Collapse(expand),"Node-click context menu, collapse clade into a single node. Collapsed clade appears as a small circle. Click on this circle to restore clade."
 Tree: Network (TCS),"Node-click context menu, create TCS network of all query strains in clade"
-Tree: Newick tree,Node-click context menu 
-Tree: Phylogeny (RaxML),Node-click context menu 
-Tree: Pie Charts,Node-click context menu 
-Tree: Subtree(new window),Node-click context menu 
-Tree: Subtree(tree),Node-click context menu 
+Tree: Newick tree,"Node-click context menu, download newick tree of selected clade in either phylip or NEXUS format"
+Tree: Phylogeny (RaxML),"Node-click context menu, create de novo tree of selected clade"
+Tree: Pie Charts,Node-click context menu
+Tree: Subtree(new window),"Node-click context menu, view subtree of selected clade in new window"
+Tree: Subtree(tree),"Node-click context menu, view subtree of selected clade"
 UNITE,Database of fungal ITS for BLAST
