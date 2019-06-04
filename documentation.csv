@@ -34,7 +34,7 @@ Tree: Collapse(expand),"Node-click context menu, collapse clade into a single no
 Tree: Network (TCS),"Node-click context menu, create TCS network of all query strains in clade"
 Tree: Newick tree,"Node-click context menu, download newick tree of selected clade in either phylip or NEXUS format"
 Tree: Phylogeny (RaxML),"Node-click context menu, create de novo tree of selected clade"
-Tree: Pie Charts,Node-click context menu
+Tree: Pie Charts,"Node-click context menu, create pie charts to show relationships of selected attributes"
 Tree: Subtree(new window),"Node-click context menu, view subtree of selected clade in new window"
 Tree: Subtree(tree),"Node-click context menu, view subtree of selected clade"
 UNITE,Database of fungal ITS for BLAST
