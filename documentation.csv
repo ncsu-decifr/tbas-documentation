@@ -31,7 +31,7 @@ Taxa: Select All,"Node-click context menu, select all leaves on tree"
 Taxa: Select(unselect),"Node-click context menu, select or unselect all leafs in clade"
 Taxa: Unselect All,"Node-click context menu, unselect all leaves on tree"
 Tree: Collapse(expand),"Node-click context menu, collapse clade into a single node. Collapsed clade appears as a small circle. Click on this circle to restore clade."
-Tree: Network (TCS),Node-click context menu 
+Tree: Network (TCS),"Node-click context menu, create TCS network of all query strains in clade"
 Tree: Newick tree,Node-click context menu 
 Tree: Phylogeny (RaxML),Node-click context menu 
 Tree: Pie Charts,Node-click context menu 
