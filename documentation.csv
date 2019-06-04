@@ -14,8 +14,8 @@ Labels: Likelihood Weight,"Node-click context menu, click on leaf of EPA placeme
 Ladderize tree,Sort tree leaves from deepest to shallowest or reverse
 Locus (Loci),A location on a chromosome
 LSU,Large subunit locus
-Metadata: Download,Node-click context menu 
-Metadata: View,Node-click context menu 
+Metadata: Download,"Node-click context menu, download data of selected according to selections in format and sequence"
+Metadata: View,"Node-click context menu, view data of selected according to selections in format and sequence in pop-up window"
 multifurcating tree,Tree where each node can have multiple children
 NEWICK,A standard for representing  trees
 NEXUS,"A file format with multiple uses, can contain trees and alignments"
