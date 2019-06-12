@@ -19,7 +19,7 @@ gulp.task('markdown_pdf', function() {
     return gulp.src('README.md')
         .pipe(rename({
             extname: ".pdf",
-            suffix: "-documentation"
+            suffix: "-manual"
 
         }))
         .pipe(markdownPdf())
