@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     rename = require('gulp-rename'),
-    markdown = require('gulp-markdown');
+    markdown = require('gulp-markdown'),
+    markdownPdf = require('gulp-markdown-pdf');
 
 gulp.task('markdown_docker', function() {
     return gulp.src('README.md')
