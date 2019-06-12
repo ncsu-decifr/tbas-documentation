@@ -36,4 +36,4 @@ gulp.task('move_csv', function() {
         .pipe(gulp.dest('/var/www/html/tbas2_1/pages/data/tbas-documentation'));
 });
 
-gulp.task('default', ['markdown_html', 'move_images', 'move_csv']);
+gulp.task('default', ['markdown_pdf', 'markdown_html', 'move_images', 'move_csv']);
