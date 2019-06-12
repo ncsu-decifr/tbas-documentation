@@ -3,8 +3,8 @@
 ### Table of Contents
 1. [Color Editor](#color-editor)
 2. [Data Standardization](#data-standardization)
-3. References
-4. Appendix
+3. [References](#references)
+4. [Appendix](#appendix)
    
 
 
@@ -68,3 +68,8 @@ The cifr:gene tags saves metadata of the alignments.
 The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, and cifr:exset. 
 
 ![](images/tbas-documentation/data_standardization2.png)
+
+### References
+
+
+### Appendix
