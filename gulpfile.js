@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     markdown = require('gulp-markdown'),
     markdownPdf = require('gulp-markdown-pdf');
 
-gulp.task('markdown_docker', function() {
+gulp.task('markdown_html', function() {
     return gulp.src('README.md')
         .pipe(rename({
             extname: ".html",
@@ -11,6 +11,18 @@ gulp.task('markdown_docker', function() {
 
         }))
         .pipe(markdown())
+
+        .pipe(gulp.dest('/var/www/html/tbas2_1/pages'))
+});
+
+gulp.task('markdown_pdf', function() {
+    return gulp.src('README.md')
+        .pipe(rename({
+            extname: ".pdf",
+            suffix: "-documentation"
+
+        }))
+        .pipe(markdownPdf())
 
         .pipe(gulp.dest('/var/www/html/tbas2_1/pages'))
 });
@@ -24,4 +36,4 @@ gulp.task('move_csv', function() {
         .pipe(gulp.dest('/var/www/html/tbas2_1/pages/data/tbas-documentation'));
 });
 
-gulp.task('default', ['markdown_docker', 'move_images', 'move_csv']);
+gulp.task('default', ['markdown_html', 'move_images', 'move_csv']);
