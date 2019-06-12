@@ -31,9 +31,9 @@ gulp.task('move_images', function() {
     return gulp.src("images/tbas-documentation/*.*")
         .pipe(gulp.dest('/var/www/html/tbas2_1/pages/images/tbas-documentation'));
 });
-gulp.task('move_csv', function() {
-    return gulp.src("documentation.csv")
+gulp.task('move_data', function() {
+    return gulp.src("data/tbas-documentation/*.*")
         .pipe(gulp.dest('/var/www/html/tbas2_1/pages/data/tbas-documentation'));
 });
 
-gulp.task('default', ['markdown_pdf', 'markdown_html', 'move_images', 'move_csv']);
+gulp.task('default', ['markdown_pdf', 'markdown_html', 'move_images', 'move_data']);

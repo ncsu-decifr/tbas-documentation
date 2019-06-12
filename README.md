@@ -1,3 +1,5 @@
+[PDF manual](data/tbas-documentation/TBAS_User_Manual_v2.1.pdf)
+
 ### Table of Contents
 1. [Color Editor](#color-editor)
 2. Data Standardization
