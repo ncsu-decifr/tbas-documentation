@@ -71,5 +71,13 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 ### References
 
+Section 1 Color Editor
+
+https://www.compuhelpts.com/Color_Codes_1.pdf
+
+Section 2 Data Standardization
+
+Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
+
 
 ### Appendix
