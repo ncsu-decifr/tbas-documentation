@@ -1,4 +1,3 @@
+* Tree-Based Alignment Selector (T-BAS) v. 2.1
 
-# T-BAS Documentation
-
-![](images/tbas-documentation/Screen1.png)
+** A toolkit for evolutionary placement of DNA sequences, viewing alignments, and specimen metadata on curated and custom trees
