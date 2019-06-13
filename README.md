@@ -43,7 +43,7 @@ PhyloXML is an XML language for describing evolutionary trees or networks and da
 
 Our new PhyloXML schema named “cifr PhyloXML” includes new tags: cifr:otus, cifr:attributes, and cifr:genes. 
 
-[**cifr:otus**]  
+**[cifr:otus]**  
 A cifr:otu tag saves all the information in the OTUs of the submitted samples.
 
 A cifr:otu tag contains a cifr:name, cifr:leaf_name, and a cifr:taxon tag. 
