@@ -78,7 +78,7 @@ This feature under the RAxML options can be used to Infer best tree for referenc
 ### 4. References
 
 Section 1 Color Editor  
-      + https://www.compuhelpts.com/Color_Codes_1.pdf
+       https://www.compuhelpts.com/Color_Codes_1.pdf
 
 Section 2 Data Standardization  
       Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
