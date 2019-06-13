@@ -22,7 +22,7 @@ To change the color using the HSL color bars, slide the center vertical black li
 
 ![](images/tbas-documentation/color_editor2.png)
 
-Selecting a specific attribute in the pull-down menu will display the current color arrangement on the tree. Here the hex values can be changed, if known. Hex values can be searched online or can be viewed here. Enter the value into the box and press Enter/Return. 
+Selecting a specific attribute in the pull-down menu will display the current color arrangement on the tree. Here the hex values can be changed, if known. Hex values can be searched online or can be viewed [here](data/tbas-documentation/Color_Codes_1.pdf). Enter the value into the box and press Enter/Return. 
 
 ![](images/tbas-documentation/color_editor3.png)
 
