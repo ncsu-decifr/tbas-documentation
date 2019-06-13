@@ -68,7 +68,7 @@ The cifr:gene tags saves metadata of the alignments.
 
 The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, and cifr:exset. 
 
-![](images/tbas-documentation/data_standardization2.png)
+![](images/tbas-documentation/data_standardization3.png)
 
 ### References
 
