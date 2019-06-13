@@ -52,7 +52,7 @@ The cifr_taxon tag contains cifr:taxon_level and cifr:taxon_val tags with placem
 
 Also in the cifr:otu are cifr:placement tags with attributes and unaligned sequences for each sample in the OTU.
 
-![](images/tbas-documentation/TBAS User Manual Data Standardization 1.png)
+![](images/tbas-documentation/data_standardization1.png)
 
 **cifr:attributes**
 
@@ -60,7 +60,7 @@ A cifr:attributes tag contains information for specimen metadata in the tree str
 
 The cifr:attributes tag contains cifr:attribute, which contains cifr:name and cifr:value.
 
-![](images/tbas-documentation/TBAS User Manual Data Standardization 2.png)
+![](images/tbas-documentation/data_standardization2.png)
 
 **cifr:genes**
 
@@ -68,7 +68,7 @@ The cifr:gene tags saves metadata of the alignments.
 
 The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, and cifr:exset.
 
-![](images/tbas-documentation/TBAS User Manual Data Standardization 3.png)
+![](images/tbas-documentation/data_standardization3.png)
 
 ### 3. References
 
