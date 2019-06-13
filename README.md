@@ -32,7 +32,7 @@ If the value is not known, click inside a box of an attribute to be changed, and
 
 Clicking the color reset button will undo all changes.
 
-![](images/tbas-documentation/color_editor4.png)
+![](images/tbas-documentation/color_editor5.png)
 
 To copy a color scheme from one tree to another, copy hex values and then enter them manually in the color editor on the next tree.
 
