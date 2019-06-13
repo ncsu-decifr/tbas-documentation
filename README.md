@@ -3,7 +3,7 @@
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [De novo single or multi-locus phylogenetic analysis](#3-de-novo-single-or-multi)
+3. [De novo single or multi-locus phylogenetic analysis](#3-de-novo-single-or-multi-locus-phylogenetic-analysis)
 4. [References](#4-references)
 5. [Appendix](#5-appendix)
 
