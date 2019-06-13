@@ -8,7 +8,7 @@
    
 
 
-### Color editor
+### 1 Color editor
 
 
 The purpose of the color editor is to allow the user to select preferred colors for the layout of the tree. When T-BAS creates a tree it randomly assigns colors to attributes from all colors in the spectrum. For each attribute, the rows in the legend are arranged by color so that the user can find the label of a color by looking in the legend. The colors can be changed in the color editor. However, the order of entries in the legend remains as for the original colors assigned. There is no limit to how many values or attributes can be edited.
@@ -36,7 +36,7 @@ Clicking the color reset button will undo all changes.
 
 To copy a color scheme from one tree to another, copy hex values and then enter them manually in the color editor on the next tree.
 
-### Data Standardization
+### 2 Data Standardization
 
 PhyloXML is an XML language for describing evolutionary trees or networks and data associated with them (Han & Zmasek 2009). In T-BAS, DNA sequences and associated specimen metadata are phylogenetically placed on curated multi-locus reference trees and the placement results are standardized using an extended PhyloXML format. This standardization allows placements and associated specimen attributes (e.g. host, locality, environmental traits) to be readily viewed, archived and importantly analyzed within a phylogenetic context. Unlike other data standards used for phylogenetic trees, PhyloXML can be adapted and extended to integrate disparate forms of data. To this end we added additional PhyloXML elements to accommodate raw sequence data and alignments that are associated with each taxonomic scale in the tree – from phylum to individuals in populations. This standardization provides a consistent handling of the data and is currently used by T-BAS and other tools in the DeCIFR toolkit. 
 
@@ -70,7 +70,7 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 ![](images/tbas-documentation/data_standardization3.png)
 
-### References
+### 3 References
 
 Section 1 Color Editor  
 https://www.compuhelpts.com/Color_Codes_1.pdf
@@ -79,4 +79,4 @@ Section 2 Data Standardization
 Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
 
 
-### Appendix
+### 4 Appendix
