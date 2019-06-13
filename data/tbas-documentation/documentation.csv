@@ -1,7 +1,7 @@
 Backbone constraint tree with bootstraps,RaxML method
-bifurcating tree,Tree where each node has 2 children
+Bifurcating tree,Tree where each node has 2 children
 BLAST ,"Basic Local Alignment Search Tool, used to match unknown sequences to known sequences in database"
-cifr phyloXML,Custom XML format that is valid phyloXML with added tags for use in T-BAS
+Cifr phyloXML,Custom XML format that is valid phyloXML with added tags for use in T-BAS
 De novo phylogenetic analysis,RaxML method
 EPA with likelihood weights,RaxML method that places sequence on edges of existing tree
 FASTA,A file sequence format for unaligned data
@@ -16,14 +16,14 @@ Locus (Loci),A location on a chromosome
 LSU,Large subunit locus
 Metadata: Download,"Node-click context menu, download data of selected according to selections in format and sequence"
 Metadata: View,"Node-click context menu, view data of selected according to selections in format and sequence in pop-up window"
-multifurcating tree,Tree where each node can have multiple children
+Multifurcating tree,Tree where each node can have multiple children
 NEWICK,A standard for representing  trees
 NEXUS,"A file format with multiple uses, can contain trees and alignments"
-OTUs,A grouping of sequences into percent similarity by  the program QIIME
-outgroup,"Leaves of a tree placed in a distinct clade, used to root tree"
+OTUs,A grouping of sequences into percent similarity by the program QIIME
+Outgroup,"Leaves of a tree placed in a distinct clade, used to root tree"
 PHYLIP,A file format for aligned sequence data
-phyloXML,XML language designed to describe phylogenetic trees (or networks) and associated data
-query sequences,Unaligned unknown sequence data
+PhyloXML,XML language designed to describe phylogenetic trees (or networks) and associated data
+Query sequences,Unaligned unknown sequence data
 Rate heterogeneity model, A phylogenetic model that accounts for evolutionary rate heterogeneity
 RAxML,"Softare tool used to place alignment on a tree, plus some other utilities"
 Reference set,"A set of tree, alignments, and metadata of known species at a specific taxonomic level used for placement"
