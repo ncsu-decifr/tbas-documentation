@@ -78,14 +78,14 @@ This feature under the RAxML options can be used to Infer best tree for referenc
 ### 4. References
 
 Section 1 Color Editor  
-  https://www.compuhelpts.com/Color_Codes_1.pdf
+      https://www.compuhelpts.com/Color_Codes_1.pdf
 
 Section 2 Data Standardization  
-  Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
+      Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
 
 Section 3 De novo single or multi-locus phylogenetic analysis  
-  Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et al. 2000. Phylogenetic species recognition and         species concepts in fungi. Fungal Genet Biol 31: 21-32. doi:10.1006/fgbi.2000.1228.  
-  Zhang, J., P. Kapli, P. Pavlidis and A. Stamatakis. 2013. A general species delimitation method with applications to phylogenetic       placements. Bioinformatics 29: 2869-2876. doi:10.1093/bioinformatics/btt499.
+      Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et al. 2000. Phylogenetic species recognition and         species concepts in fungi. Fungal Genet Biol 31: 21-32. doi:10.1006/fgbi.2000.1228.  
+      Zhang, J., P. Kapli, P. Pavlidis and A. Stamatakis. 2013. A general species delimitation method with applications to phylogenetic       placements. Bioinformatics 29: 2869-2876. doi:10.1093/bioinformatics/btt499.
 
 
 ### 5. Appendix
