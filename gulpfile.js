@@ -1,7 +1,6 @@
 var gulp = require('gulp'),
     rename = require('gulp-rename'),
-    markdown = require('gulp-markdown'),
-    markdownPdf = require('gulp-markdown-pdf');
+    markdown = require('gulp-markdown');
 
 gulp.task('markdown_html', function() {
     return gulp.src('README.md')
@@ -15,17 +14,17 @@ gulp.task('markdown_html', function() {
         .pipe(gulp.dest('/var/www/html/tbas2_1/pages'))
 });
 
-gulp.task('markdown_pdf', function() {
-    return gulp.src('README.md')
-        .pipe(rename({
-            extname: ".pdf",
-            suffix: "-manual"
+// gulp.task('markdown_pdf', function() {
+//     return gulp.src('README.md')
+//         .pipe(rename({
+//             extname: ".pdf",
+//             suffix: "-manual"
 
-        }))
-        .pipe(markdownPdf())
+//         }))
+//         .pipe(markdownPdf())
 
-        .pipe(gulp.dest('/var/www/html/tbas2_1/pages'))
-});
+//         .pipe(gulp.dest('/var/www/html/tbas2_1/pages'))
+// });
 
 gulp.task('move_images', function() {
     return gulp.src("images/tbas-documentation/*.*")
@@ -36,4 +35,4 @@ gulp.task('move_data', function() {
         .pipe(gulp.dest('/var/www/html/tbas2_1/pages/data/tbas-documentation'));
 });
 
-gulp.task('default', ['markdown_pdf', 'markdown_html', 'move_images', 'move_data']);
+gulp.task('default', [ 'markdown_html', 'move_images', 'move_data']);
