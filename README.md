@@ -79,10 +79,12 @@ The server uses the Python framework Flask – https://palletsprojects.com/p/fla
 Installation instructions are included. 
 
 To run the server, edit the location of the parameter TMP_FOLDER to the folder holding the cifr phyloXML files. 
-![](images/tbas-documentation/rest-server2.png)
+
+![](images/tbas-documentation/rest_server2.png)
 
 Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
-![](images/tbas-documentation/rest-server1.png)
+
+![](images/tbas-documentation/rest_server1.png)
 
 ### 4. De novo single or multi-locus phylogenetic analysis
 
