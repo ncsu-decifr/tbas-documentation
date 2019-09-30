@@ -3,7 +3,7 @@
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [DeCIFR REST Server] (#3-decifr-rest-server)
+3. [DeCIFR REST Server](#3-decifr-rest-server)
 3. [De novo single or multi-locus phylogenetic analysis](#4-de-novo-single-or-multi-locus-phylogenetic-analysis)
 4. [References](#5-references)
 5. [Appendix](#6-appendix)
@@ -75,13 +75,14 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 The code for a REST server that can be used to share results stored in a cifr PhyloXML over the internet is available at https://github.com/ncsu-decifr/decifr-rest.
 
-The server uses the Python framework Flask – https://palletsprojects.com/p/flask/. Installation instructions are included. 
+The server uses the Python framework Flask – https://palletsprojects.com/p/flask/. 
+Installation instructions are included. 
 
 To run the server, edit the location of the parameter TMP_FOLDER to the folder holding the cifr phyloXML files. 
+![](images/tbas-documentation/rest-server2.png)
 
 Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
-
-![](images/tbas-documentation/decifr-rest-server.png)
+![](images/tbas-documentation/rest-server1.png)
 
 ### 4. De novo single or multi-locus phylogenetic analysis
 
