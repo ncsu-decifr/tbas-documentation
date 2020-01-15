@@ -81,12 +81,13 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 ### 3. De novo single or multi-locus phylogenetic analysis
 
 This feature under the RAxML options can be used to Infer best tree for reference and unknown query sequences. Potential applications include: (1) inferring trees for species delimitation using the Genealogical Concordance Phylogenetic Species Recognition (GCPSR) concept (Taylor et al 2000), and (2) inferring an input tree for Poisson Tree Processes (PTP) model to delimit putative species (Zhang et al 2013).
+
 ![](images/tbas-documentation/de_novo_single_or_multi1.png)
 
 ### 5. References
 
 Section 1 Color Editor
-      * [www.compuhelpts.com](https://www.compuhelpts.com/Color_Codes_1.pdf)
+      * [https://www.compuhelpts.com/Color_Codes_1.pdf](https://www.compuhelpts.com/Color_Codes_1.pdf)
 
 Section 2 Data Standardization
       * Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
