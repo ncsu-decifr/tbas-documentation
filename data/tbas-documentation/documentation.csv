@@ -24,3 +24,17 @@ Outgroup,Leaves of a tree placed in a distinct clade&#44; used to root tree
 PHYLIP,A file format for aligned sequence data
 PhyloXML,XML language designed to describe phylogenetic trees (or networks) and associated data
 Query sequences,Unaligned unknown sequence data
+Rate heterogeneity model,A phylogenetic model that accounts for evolutionary rate heterogeneity
+RAxML,Software tool used to place alignment on a tree&#44; plus some other utilities
+Reference set,A set of tree&#44; alignments&#44; and metadata of known species at a specific taxonomic level used for placement
+Taxa: Select All,Node-click context menu&#44; select all leaves on tree
+Taxa: Select(unselect),Node-click context menu&#44; select or unselect all leafs in clade
+Taxa: Unselect All,Node-click context menu&#44; unselect all leaves on tree
+Tree: Collapse(expand),Node-click context menu&#44; collapse clade into a single node. Collapsed clade appears as a small circle. Click on this circle to restore clade.
+Tree: Network (TCS),Node-click context menu&#44; create TCS network of all query strains in clade
+Tree: Newick tree,Node-click context menu&#44; download newick tree of selected clade in either phylip or NEXUS format
+Tree: Phylogeny (RaxML),Node-click context menu&#44; create de novo tree of selected clade
+Tree: Pie Charts,Node-click context menu&#44; create pie charts to show relationships of selected attributes
+Tree: Subtree (new window),Node-click context menu&#44; view subtree of selected clade in new window
+Tree: Subtree(tree),Node-click context menu&#44; view subtree of selected clade
+UNITE,Database of fungal ITS for BLAST
