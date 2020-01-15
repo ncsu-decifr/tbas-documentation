@@ -1,40 +1,26 @@
 Backbone constraint tree with bootstraps,RaxML method
 Bifurcating tree,Tree where each node has 2 children
-BLAST ,"Basic Local Alignment Search Tool, used to match unknown sequences to known sequences in database"
-Cifr phyloXML,Custom XML format that is valid phyloXML with added tags for use in T-BAS
+BLAST,Basic Local Alignment Search Tool&#44; used to match unknown sequences to known sequences in database
+MEP,Metadata Enhanced PhyloXML format that is a valid phyloXML with added tags for use in T-BAS and DeCIFR
 De novo phylogenetic analysis,RaxML method
 EPA with likelihood weights,RaxML method that places sequence on edges of existing tree
 FASTA,A file sequence format for unaligned data
-Genetic distance cutoff ,Value used by custom algorithm to exclude divergent species from placement
-GTRCAT (Rate heterogeneity model), Faster model than GTRGAMMA that uses a different approximation to capture rate heterogeneity across sites
+Genetic distance cutoff,Value used by custom algorithm to exclude divergent species from placement
+GTRCAT (Rate heterogeneity model),Faster model than GTRGAMMA that uses a different approximation to capture rate heterogeneity across sites
 GTRGAMMA (Rate heterogeneity model),General Time Reversible (GTR) model with Gamma distributed rates across sites
 ITS,Internal transcribed spacer locus
-Labels: Display Names,"Node-click context menu, display leaf names in selected clade in large trees. Tree with greater than 2000 leaves do not display names for performance reasons."
-Labels: Likelihood Weight,"Node-click context menu, click on leaf of EPA placement will show all all leaves attached to the edge that gives 95% cumulative weight."
+Labels: Display Names,Node-click context menu, display leaf names in selected clade in large trees. Tree with greater than 2000 leaves do not display names for performance reasons.
+Labels: Likelihood Weight,Node-click context menu, click on leaf of EPA placement will show all leaves attached to the edge that gives 95% cumulative weight.
 Ladderize tree,Sort tree leaves from deepest to shallowest or reverse
 Locus (Loci),A location on a chromosome
 LSU,Large subunit locus
-Metadata: Download,"Node-click context menu, download data of selected according to selections in format and sequence"
-Metadata: View,"Node-click context menu, view data of selected according to selections in format and sequence in pop-up window"
+Metadata: Download,Node-click context menu, download data of selected according to selections in format and sequence
+Metadata: View,Node-click context menu, view data of selected according to selections in format and sequence in pop-up window
 Multifurcating tree,Tree where each node can have multiple children
-NEWICK,A standard for representing  trees
-NEXUS,"A file format with multiple uses, can contain trees and alignments"
-OTUs,A grouping of sequences into percent similarity by the program QIIME
-Outgroup,"Leaves of a tree placed in a distinct clade, used to root tree"
+NEWICK,A standard for representing trees
+NEXUS,A file format with multiple uses, can contain trees and alignments
+OTUs,A grouping of sequences into percent similarity
+Outgroup,Leaves of a tree placed in a distinct clade&#44; used to root tree
 PHYLIP,A file format for aligned sequence data
 PhyloXML,XML language designed to describe phylogenetic trees (or networks) and associated data
 Query sequences,Unaligned unknown sequence data
-Rate heterogeneity model, A phylogenetic model that accounts for evolutionary rate heterogeneity
-RAxML,"Softare tool used to place alignment on a tree, plus some other utilities"
-Reference set,"A set of tree, alignments, and metadata of known species at a specific taxonomic level used for placement"
-Taxa: Select All,"Node-click context menu, select all leaves on tree"
-Taxa: Select(unselect),"Node-click context menu, select or unselect all leafs in clade"
-Taxa: Unselect All,"Node-click context menu, unselect all leaves on tree"
-Tree: Collapse(expand),"Node-click context menu, collapse clade into a single node. Collapsed clade appears as a small circle. Click on this circle to restore clade."
-Tree: Network (TCS),"Node-click context menu, create TCS network of all query strains in clade"
-Tree: Newick tree,"Node-click context menu, download newick tree of selected clade in either phylip or NEXUS format"
-Tree: Phylogeny (RaxML),"Node-click context menu, create de novo tree of selected clade"
-Tree: Pie Charts,"Node-click context menu, create pie charts to show relationships of selected attributes"
-Tree: Subtree(new window),"Node-click context menu, view subtree of selected clade in new window"
-Tree: Subtree(tree),"Node-click context menu, view subtree of selected clade"
-UNITE,Database of fungal ITS for BLAST

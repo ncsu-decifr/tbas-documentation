@@ -3,8 +3,8 @@
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [De novo single or multi-locus phylogenetic analysis](#4-de-novo-single-or-multi-locus-phylogenetic-analysis)
-4. [References](#5-references)
+3. [De novo single or multi-locus phylogenetic analysis](#3-de-novo-single-or-multi-locus-phylogenetic-analysis)
+4. [References](#4-references)
 5. Appendix
     - [Description of Terms](#6-appendix)
 
@@ -84,12 +84,14 @@ This feature under the RAxML options can be used to Infer best tree for referenc
 
 ![](images/tbas-documentation/de_novo_single_or_multi1.png)
 
-### 5. References
+### 4. References
 
-**Section 1 Color Editor**    
+**Section 1 Color Editor**
+
 [https://www.compuhelpts.com/Color_Codes_1.pdf](https://www.compuhelpts.com/Color_Codes_1.pdf)
 
-**Section 2 Data Standardization**  
+**Section 2 Data Standardization**
+
 Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
 
 **Section 3 De novo single or multi-locus phylogenetic analysis** 
