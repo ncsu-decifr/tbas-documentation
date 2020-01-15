@@ -5,8 +5,8 @@
 2. [Data Standardization](#2-data-standardization)
 3. [De novo single or multi-locus phylogenetic analysis](#3-de-novo-single-or-multi-locus-phylogenetic-analysis)
 4. [References](#4-references)
-5. Appendix
-    - [Description of Terms](#6-appendix)
+5. Appendix(#5-appendix)
+    - [Description of Terms]
 
 
 
@@ -100,4 +100,4 @@ Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et
 
 Zhang, J., P. Kapli, P. Pavlidis and A. Stamatakis. 2013. A general species delimitation method with applications to phylogenetic placements. Bioinformatics 29: 2869-2876. doi:10.1093/bioinformatics/btt499.
 
-### 6. Appendix
+### 5. Appendix
