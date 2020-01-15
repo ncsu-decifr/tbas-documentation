@@ -1,30 +1,33 @@
-[PDF manual](data/tbas-documentation/TBAS_User_Manual_v2.3.pdf)
+[PDF manual](data/tbas-documentation/TBAS_User_Manual_v2.2-01-03-20.pdf)
 
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [DeCIFR REST Server](#3-decifr-rest-server)
 3. [De novo single or multi-locus phylogenetic analysis](#4-de-novo-single-or-multi-locus-phylogenetic-analysis)
 4. [References](#5-references)
-5. [Appendix](#6-appendix)
+5. Appendix
+    - [Description of Terms](#6-appendix)
 
 
 
 ### 1. Color editor
 
-
-The purpose of the color editor is to allow the user to select preferred colors for the layout of the tree. When T-BAS creates a tree it randomly assigns colors to attributes from all colors in the spectrum. For each attribute, the rows in the legend are arranged by color so that the user can find the label of a color by looking in the legend. The colors can be changed in the color editor. However, the order of entries in the legend remains as for the original colors assigned. There is no limit to how many values or attributes can be edited.
+The purpose of the color editor is to allow the user to select preferred colors for the layout of thetree. When T-BAS creates a tree it randomly assigns colors to attributes from all colors in the
+spectrum. For each attribute, the rows in the legend are arranged by color so that the user canfind the label of a color by looking in the legend. The colors can be changed in the color editor.
+However, the order of entries in the legend remains as for the original colors assigned. There isno limit to how many values or attributes can be edited.
 
 To change the colors, click the color editor button and the color editor window will pop up.
 ![](images/tbas-documentation/color_editor1.png)
 
-There are two ways to change the colors. Colors can be selected on the color bars or inputting a known hex color value.
+There are two ways to change the colors. Colors can be selected on the color bars or inputting aknown hex color value.
 
-To change the color using the HSL (hue, saturation, lightness) color bars, slide the center vertical black line (while holding down the left mouse button) on one of the 3 bars to the left or right. One or all three bars can be modified in order to display the desired color. The letter under the corresponding bar indicate the following: H (hue), S (saturation), L (lightness).
+To change the color using the HSL (hue, saturation, lightness) color bars, slide the center verticalblack line (while holding down the left mouse button) on one of the 3 bars to the left or right. One
+or all three bars can be modified in order to display the desired color. The letter under thecorresponding bar indicate the following: H (hue), S (saturation), L (lightness).
 
 ![](images/tbas-documentation/color_editor2.png)
 
-Selecting a specific attribute in the pull-down menu will display the current color arrangement on the tree. Here the hex values can be changed, if known. Hex values can be searched online or can be viewed [here](data/tbas-documentation/Color_Codes_1.pdf). Enter the value into the box and press Enter/Return.
+Selecting a specific attribute in the pull-down menuwill display the current color arrangement on the
+tree. Here the hex values can be changed, if known. Hex values can be searched online or can be viewed here. Enter the value into the box and press Enter/Return.
 
 ![](images/tbas-documentation/color_editor3.png)
 
@@ -75,10 +78,10 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 The code for a REST server that can be used to share results stored in a cifr PhyloXML over the internet is available at https://github.com/ncsu-decifr/decifr-rest.
 
-The server uses the Python framework Flask – https://palletsprojects.com/p/flask/. 
-Installation instructions are included. 
+The server uses the Python framework Flask – https://palletsprojects.com/p/flask/.
+Installation instructions are included.
 
-To run the server, edit the location of the parameter TMP_FOLDER to the folder holding the cifr phyloXML files. 
+To run the server, edit the location of the parameter TMP_FOLDER to the folder holding the cifr phyloXML files.
 
 ![](images/tbas-documentation/rest_server2.png)
 
@@ -93,14 +96,14 @@ This feature under the RAxML options can be used to Infer best tree for referenc
 
 ### 5. References
 
-Section 1 Color Editor  
+Section 1 Color Editor
       * [www.compuhelpts.com](https://www.compuhelpts.com/Color_Codes_1.pdf)
 
-Section 2 Data Standardization  
+Section 2 Data Standardization
       * Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
 
-Section 3 De novo single or multi-locus phylogenetic analysis  
-      * Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et al. 2000. Phylogenetic species recognition and         species concepts in fungi. Fungal Genet Biol 31: 21-32. doi:10.1006/fgbi.2000.1228.    
+Section 3 De novo single or multi-locus phylogenetic analysis
+      * Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et al. 2000. Phylogenetic species recognition and         species concepts in fungi. Fungal Genet Biol 31: 21-32. doi:10.1006/fgbi.2000.1228.
       * Zhang, J., P. Kapli, P. Pavlidis and A. Stamatakis. 2013. A general species delimitation method with applications to                     phylogenetic placements. Bioinformatics 29: 2869-2876. doi:10.1093/bioinformatics/btt499.
 
 
