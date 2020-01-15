@@ -48,6 +48,8 @@ MEP uses two associated schema definitions:
 - cifr_phyloxml.xsd to show how custom tags are added to PhyloXML.
 - cifr.xsd to define custom tags in the http://www.cifr.ncsu.edu namespace.
 
+The MEP schema includes new tags: cifr:otus, cifr:attributes, and cifr:genes.
+
 **cifr:otus**
 A cifr:otu tag saves all the information in the OTUs of the submitted samples.
 
@@ -75,22 +77,8 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 ![](images/tbas-documentation/data_standardization3.png)
 
-### 3. DeCIFR REST Server
 
-The code for a REST server that can be used to share results stored in a cifr PhyloXML over the internet is available at https://github.com/ncsu-decifr/decifr-rest.
-
-The server uses the Python framework Flask – https://palletsprojects.com/p/flask/.
-Installation instructions are included.
-
-To run the server, edit the location of the parameter TMP_FOLDER to the folder holding the cifr phyloXML files.
-
-![](images/tbas-documentation/rest_server2.png)
-
-Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
-
-![](images/tbas-documentation/rest_server1.png)
-
-### 4. De novo single or multi-locus phylogenetic analysis
+### 3. De novo single or multi-locus phylogenetic analysis
 
 This feature under the RAxML options can be used to Infer best tree for reference and unknown query sequences. Potential applications include: (1) inferring trees for species delimitation using the Genealogical Concordance Phylogenetic Species Recognition (GCPSR) concept (Taylor et al 2000), and (2) inferring an input tree for Poisson Tree Processes (PTP) model to delimit putative species (Zhang et al 2013).
 ![](images/tbas-documentation/de_novo_single_or_multi1.png)
