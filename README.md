@@ -90,20 +90,24 @@ All users:
 Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
 
 Clicking on a Run ID link (ie; 3F7THARX) will allow the leaves, queries, and OTUs to be viewed without opening the tree.
+
 ![](images/tbas-documentation/rest_server1.png)
 
 Click on ‘leaves’ to see the sample names that are present in a tree.
-![](images/tbas-documentation/rest_server2.png)
+
+![](images/tbas-documentation/rest_server.png)
 
 Click on the metadata link for Ramulaira_calcea_CBS_101612 (#2).
-![](images/tbas-documentation/rest_server3.png)
+![](images/tbas-documentation/rest_server.png)
 
 The metadata for that sample will be shown.
 ![](images/tbas-documentation/rest_server4.png)
 
 Clicking on “queries” will display the query and the tree placement information:
+![](images/tbas-documentation/rest_server2.png)
 
 Clicking on OTU will display the following information:
+![](images/tbas-documentation/rest_server3.png)
 
 ### 4. De novo single or multi-locus phylogenetic analysis
 
