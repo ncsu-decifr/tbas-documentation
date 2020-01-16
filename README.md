@@ -3,7 +3,7 @@
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [DeCIFR REST Server] (#3-decifr-rest-server)
+3. [DeCIFR REST Server](#3-decifr-rest-server)
 4. [De novo single or multi-locus phylogenetic analysis](#4-de-novo-single-or-multi-locus-phylogenetic-analysis)
 5. [References](#5-references)
 6. [Appendix](#6-appendix)
@@ -51,6 +51,7 @@ MEP uses two associated schema definitions:
 
 The MEP schema includes new tags: cifr:otus, cifr:attributes, and cifr:genes.
 
+
 **cifr:otus**
 A cifr:otu tag saves all the information in the OTUs of the submitted samples.
 
@@ -86,7 +87,6 @@ The code for a REST server that can be used to share results stored in a cifr Ph
 The server uses the Python framework Flask – https://palletsprojects.com/p/flask/. Installation instructions are included. 
 
 All users:
-
 Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
 
 Clicking on a Run ID link (ie; 3F7THARX) will allow the leaves, queries, and OTUs to be viewed without opening the tree.
@@ -110,6 +110,7 @@ Clicking on “queries” will display the query and the tree placement informat
 ![](images/tbas-documentation/rest_server2.png)
 
 Clicking on OTU will display the following information:
+
 ![](images/tbas-documentation/rest_server3.png)
 
 ### 4. De novo single or multi-locus phylogenetic analysis
