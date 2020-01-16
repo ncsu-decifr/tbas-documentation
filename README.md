@@ -3,7 +3,7 @@
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [DeCIFR REST Server and API](#3-decifr-rest-server-and-API)
+3. [DeCIFR REST Server and API](#3-decifr-rest-server-and-api)
 4. [De novo single or multi-locus phylogenetic analysis](#4-de-novo-single-or-multi-locus-phylogenetic-analysis)
 5. [References](#5-references)
 6. [Appendix](#6-appendix)
@@ -83,7 +83,7 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 REST Server:
 
-The Representational State Transfer Application Program Interface (REST) server can be used to retrieve tree information from Metadata Enhanced PhyloXML (MEP) files. This was released on github (https://github.com/ncsu-decifr/decifr-rest) using an open source BSD 3-Clause License. The DeCIFR REST server allows a user to share information about placements from T-BAS with other users via the web. The program is written to run in a Python 3 virtual environment and uses Flask (https://palletsprojects.com/p/flask/). Installation instructions are included.  
+The Representational State Transfer Application Program Interface (REST) server can be used to retrieve tree information from Metadata Enhanced PhyloXML (MEP) files. This was released on github (https://github.com/ncsu-decifr/decifr-rest) using an open source BSD 3-Clause License. The DeCIFR REST server allows a user to share information about placements from T-BAS with other users via the web. The program is written to run in a Python 3 virtual environment and uses Flask (https://palletsprojects.com/p/flask/). Installation instructions are included.
 
 REST API:
 
@@ -133,9 +133,9 @@ This feature under the RAxML options can be used to Infer best tree for referenc
 
 Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
 
-**Section 4 De novo single or multi-locus phylogenetic analysis** 
+**Section 4 De novo single or multi-locus phylogenetic analysis**
 
-Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et al. 2000. Phylogenetic species recognition and species concepts in fungi. Fungal Genet Biol 31: 21-32. doi:10.1006/fgbi.2000.1228.  
+Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et al. 2000. Phylogenetic species recognition and species concepts in fungi. Fungal Genet Biol 31: 21-32. doi:10.1006/fgbi.2000.1228.
 
 Zhang, J., P. Kapli, P. Pavlidis and A. Stamatakis. 2013. A general species delimitation method with applications to phylogenetic placements. Bioinformatics 29: 2869-2876. doi:10.1093/bioinformatics/btt499.
 
