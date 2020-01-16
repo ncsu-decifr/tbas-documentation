@@ -95,15 +95,18 @@ Clicking on a Run ID link (ie; 3F7THARX) will allow the leaves, queries, and OTU
 
 Click on ‘leaves’ to see the sample names that are present in a tree.
 
-![](images/tbas-documentation/rest_server.png)
+![](images/tbas-documentation/rest_server5.png)
 
 Click on the metadata link for Ramulaira_calcea_CBS_101612 (#2).
-![](images/tbas-documentation/rest_server.png)
+
+![](images/tbas-documentation/rest_server6.png)
 
 The metadata for that sample will be shown.
+
 ![](images/tbas-documentation/rest_server4.png)
 
 Clicking on “queries” will display the query and the tree placement information:
+
 ![](images/tbas-documentation/rest_server2.png)
 
 Clicking on OTU will display the following information:
