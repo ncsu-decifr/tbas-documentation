@@ -3,7 +3,7 @@
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [DeCIFR REST Server](#3-decifr-rest-server)
+3. [DeCIFR REST Server and API](#3-decifr-rest-server-and-API)
 4. [De novo single or multi-locus phylogenetic analysis](#4-de-novo-single-or-multi-locus-phylogenetic-analysis)
 5. [References](#5-references)
 6. [Appendix](#6-appendix)
@@ -79,10 +79,13 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 ![](images/tbas-documentation/data_standardization3.png)
 
-### 3. DeCIFR REST Server
+### 3. DeCIFR REST Server and API
 
-All Users:
+REST Server:
 The Representational State Transfer Application Program Interface (REST) server can be used to retrieve tree information from Metadata Enhanced PhyloXML (MEP) files. This was released on github (https://github.com/ncsu-decifr/decifr-rest) using an open source BSD 3-Clause License. The DeCIFR REST server allows a user to share information about placements from T-BAS with other users via the web. The program is written to run in a Python 3 virtual environment and uses Flask (https://palletsprojects.com/p/flask/). Installation instructions are included.  
+
+REST API:
+The DeCIFR REST API service allows access to results of a previous run of T-BAS v2.1.1 via HTTP with a browser request, programmatically, or using a command line tool such as CURL. More information is available at https://tools.decifr.hpc.ncsu.edu/rest.
 
 Docker users only:
 Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
