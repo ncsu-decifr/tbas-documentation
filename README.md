@@ -3,9 +3,10 @@
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
 2. [Data Standardization](#2-data-standardization)
-3. [De novo single or multi-locus phylogenetic analysis](#3-de-novo-single-or-multi-locus-phylogenetic-analysis)
-4. [References](#4-references)
-5. [Appendix](#5-appendix)
+3. [DeCIFR REST Server] (#3-decifr-rest-server)
+4. [De novo single or multi-locus phylogenetic analysis](#4-de-novo-single-or-multi-locus-phylogenetic-analysis)
+5. [References](#5-references)
+6. [Appendix](#6-appendix)
     - Description of Terms
 
 
@@ -77,14 +78,36 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 ![](images/tbas-documentation/data_standardization3.png)
 
+### 3. DeCIFR REST Server
 
-### 3. De novo single or multi-locus phylogenetic analysis
+Administrative Users:
+The code for a REST server that can be used to share results stored in a cifr PhyloXML over the internet is available at https://github.com/ncsu-decifr/decifr-rest.
+
+The server uses the Python framework Flask – https://palletsprojects.com/p/flask/. Installation instructions are included. 
+
+All users:
+
+Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
+
+Clicking on a Run ID link (ie; 3F7THARX) will allow the leaves, queries, and OTUs to be viewed without opening the tree.
+
+Click on ‘leaves’ to see the sample names that are present in a tree.
+
+Click on the metadata link for Ramulaira_calcea_CBS_101612 (#2).
+
+The metadata for that sample will be shown.
+
+Clicking on “queries” will display the query and the tree placement information:
+
+Clicking on OTU will display the following information:
+
+### 4. De novo single or multi-locus phylogenetic analysis
 
 This feature under the RAxML options can be used to Infer best tree for reference and unknown query sequences. Potential applications include: (1) inferring trees for species delimitation using the Genealogical Concordance Phylogenetic Species Recognition (GCPSR) concept (Taylor et al 2000), and (2) inferring an input tree for Poisson Tree Processes (PTP) model to delimit putative species (Zhang et al 2013).
 
 ![](images/tbas-documentation/de_novo_single_or_multi1.png)
 
-### 4. References
+### 5. References
 
 **Section 1 Color Editor**
 
@@ -94,10 +117,10 @@ This feature under the RAxML options can be used to Infer best tree for referenc
 
 Han MV, Zmasek CM (2009) phyloXML: XML for evolutionary biology and comparative genomics. BMC bioinformatics 10, 356.
 
-**Section 3 De novo single or multi-locus phylogenetic analysis** 
+**Section 4 De novo single or multi-locus phylogenetic analysis** 
 
 Taylor, J.W., D.J. Jacobson, S. Kroken, T. Kasuga, D.M. Geiser, D.S. Hibbett, et al. 2000. Phylogenetic species recognition and species concepts in fungi. Fungal Genet Biol 31: 21-32. doi:10.1006/fgbi.2000.1228.  
 
 Zhang, J., P. Kapli, P. Pavlidis and A. Stamatakis. 2013. A general species delimitation method with applications to phylogenetic placements. Bioinformatics 29: 2869-2876. doi:10.1093/bioinformatics/btt499.
 
-### 5. Appendix
+### 6. Appendix
