@@ -1,7 +1,6 @@
 Backbone constraint tree with bootstraps,RaxML method
 Bifurcating tree,Tree where each node has 2 children
 BLAST,Basic Local Alignment Search Tool&#44; used to match unknown sequences to known sequences in database
-MEP,Metadata Enhanced PhyloXML format that is a valid phyloXML with added tags for use in T-BAS and DeCIFR
 De novo phylogenetic analysis,RaxML method
 EPA with likelihood weights,RaxML method that places sequence on edges of existing tree
 FASTA,A file sequence format for unaligned data
@@ -14,6 +13,7 @@ Labels: Likelihood Weight,Node-click context menu&#44; click on leaf of EPA plac
 Ladderize tree,Sort tree leaves from deepest to shallowest or reverse
 Locus (Loci),A location on a chromosome
 LSU,Large subunit locus
+MEP,Metadata Enhanced PhyloXML format that is a valid phyloXML with added tags for use in T-BAS and DeCIFR
 Metadata: Download,Node-click context menu&#44; download data of selected according to selections in format and sequence
 Metadata: View,Node-click context menu&#44; view data of selected according to selections in format and sequence in pop-up window
 Multifurcating tree,Tree where each node can have multiple children
