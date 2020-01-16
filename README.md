@@ -24,7 +24,7 @@ To change the color using the HSL (hue, saturation, lightness) color bars, slide
 
 ![](images/tbas-documentation/color_editor2.png)
 
-Selecting a specific attribute in the pull-down menu will display the current color arrangement on the tree. Here the hex values can be changed, if known. Hex values can be searched online or can be viewed here. Enter the value into the box and press Enter/Return.
+Selecting a specific attribute in the pull-down menu will display the current color arrangement on the tree. Here the hex values can be changed, if known. Hex values can be searched online or can be viewed [here](https://www.compuhelpts.com/Color_Codes_1.pdf). Enter the value into the box and press Enter/Return.
 
 ![](images/tbas-documentation/color_editor3.png)
 
@@ -81,12 +81,10 @@ The cifr:genes tag contains cifr:gene, which contains cifr:locus, cifr:nchar, an
 
 ### 3. DeCIFR REST Server
 
-Administrative Users:
-The code for a REST server that can be used to share results stored in a cifr PhyloXML over the internet is available at https://github.com/ncsu-decifr/decifr-rest.
+All Users:
+The Representational State Transfer Application Program Interface (REST) server can be used to retrieve tree information from Metadata Enhanced PhyloXML (MEP) files. This was released on github (https://github.com/ncsu-decifr/decifr-rest) using an open source BSD 3-Clause License. The DeCIFR REST server allows a user to share information about placements from T-BAS with other users via the web. The program is written to run in a Python 3 virtual environment and uses Flask (https://palletsprojects.com/p/flask/). Installation instructions are included.  
 
-The server uses the Python framework Flask – https://palletsprojects.com/p/flask/. Installation instructions are included. 
-
-All users:
+Docker users only:
 Opening the URL to /list returns a list of run IDs of all the XMLs in the folder.
 
 Clicking on a Run ID link (ie; 3F7THARX) will allow the leaves, queries, and OTUs to be viewed without opening the tree.
