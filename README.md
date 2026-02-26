@@ -1,4 +1,4 @@
-[PDF manual](data/tbas-documentation/TBAS-User-Manual-v2.1.1-1-16-19-revised.pdf)
+[PDF manual](data/tbas-documentation/TBAS_User_Manual_v2.3.pdf)
 
 ### Table of Contents
 1. [Color Editor](#1-color-editor)
