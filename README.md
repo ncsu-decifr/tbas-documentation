@@ -26,15 +26,15 @@ To change the color using the HSL (hue, saturation, lightness) color bars, slide
 
 Selecting a specific attribute in the pull-down menu will display the current color arrangement on the tree. Here the hex values can be changed, if known. Hex values can be searched online or can be viewed [here](https://www.compuhelpts.com/Color_Codes_1.pdf). Enter the value into the box and press Enter/Return.
 
-![](images/tbas-documentation/color_editor3.png)
+![](https://raw.githubusercontent.com/ncsu-decifr/tbas-documentation/refs/heads/master/images/tbas-documentation/color_editor3.png)
 
 If the value is not known, click inside a box of an attribute to be changed, and select a new color on the color bar or adjust the vertical black lines until a desired color appears. For the change to take effect, the cursor must be inside the box that has the edited color value and press Enter/Return. The colors will then be updated in the color editor, in the tree, and in the legend. To select the color white, click the box in the last column.
 
-![](images/tbas-documentation/color_editor4.png)
+![](https://raw.githubusercontent.com/ncsu-decifr/tbas-documentation/refs/heads/master/images/tbas-documentation/color_editor4.png)
 
 Clicking the color reset button will undo all changes.
 
-![](images/tbas-documentation/color_editor5.png)
+![](https://raw.githubusercontent.com/ncsu-decifr/tbas-documentation/refs/heads/master/images/tbas-documentation/color_editor5.png)
 
 To copy a color scheme from one tree to another, copy hex values and then enter them manually in the color editor on the next tree.
 
