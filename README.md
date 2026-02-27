@@ -61,7 +61,7 @@ The cifr_taxon tag contains cifr:taxon_level and cifr:taxon_val tags with placem
 
 Also in the cifr:otu are cifr:placement tags with attributes and unaligned sequences for each sample in the OTU.
 
-![](images/tbas-documentation/data_standardization1.png)
+![](./images/tbas-documentation/data_standardization1.png)
 
 **cifr:attributes**
 
